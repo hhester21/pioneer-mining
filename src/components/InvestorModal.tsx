@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Lock, Zap, Shield, TrendingUp, DollarSign, Calculator, Phone, Mail } from "lucide-react"
 
-const INVESTOR_PASSWORD = "pioneer2024"
+const INVESTOR_PASSWORD = "BitcoinMining2026"
 
 export default function InvestorModal() {
   const [isOpen, setIsOpen] = useState(false)
