@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Mail, Phone, MapPin, Zap, Shield, TrendingUp } from "lucide-react"
+import { Mail, MapPin, Zap, Shield, TrendingUp } from "lucide-react"
 import Image from "next/image"
 import InvestorModal from "@/components/InvestorModal"
 import AccreditedInvestorModal from "@/components/AccreditedInvestorModal"
@@ -227,22 +227,15 @@ export default function Home() {
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 text-orange-500 mr-4" />
                   <div>
-                    <div className="font-medium">Patrick Schulte</div>
-                    <div className="text-slate-300">Patrick@pioneerminers.com</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <Phone className="w-6 h-6 text-orange-500 mr-4" />
-                  <div>
-                    <div className="font-medium">Direct Line</div>
-                    <div className="text-slate-300">(832) 563-8414</div>
+                    <div className="font-medium">Email</div>
+                    <div className="text-slate-300">info@pioneerminers.com</div>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-6 h-6 text-orange-500 mr-4" />
                   <div>
-                    <div className="font-medium">Facility Location</div>
-                    <div className="text-slate-300">4-Acre Secured Site<br />Bitcoin Mining Operations</div>
+                    <div className="font-medium">Location</div>
+                    <div className="text-slate-300">Houston, Texas<br />Mining Operations Center</div>
                   </div>
                 </div>
               </div>

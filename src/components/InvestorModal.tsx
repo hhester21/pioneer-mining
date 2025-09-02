@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Lock, Zap, Shield, TrendingUp, DollarSign, Calculator, Phone, Mail } from "lucide-react"
+import { Lock, Zap, Shield, TrendingUp, DollarSign, Calculator, Mail } from "lucide-react"
 
 const INVESTOR_PASSWORD = "BitcoinMining2026"
 
@@ -292,15 +292,11 @@ export default function InvestorModal() {
               <CardContent>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-semibold mb-4">Patrick Schulte</h4>
+                    <h4 className="font-semibold mb-4">Investor Relations</h4>
                     <div className="space-y-3">
                       <div className="flex items-center">
                         <Mail className="w-5 h-5 text-orange-500 mr-3" />
-                        <span>Patrick@pioneerminers.com</span>
-                      </div>
-                      <div className="flex items-center">
-                        <Phone className="w-5 h-5 text-orange-500 mr-3" />
-                        <span>(832) 563-8414</span>
+                        <span>Investors@pioneerminers.com</span>
                       </div>
                     </div>
                   </div>

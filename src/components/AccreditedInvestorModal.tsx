@@ -197,9 +197,9 @@ export default function AccreditedInvestorModal() {
                     </p>
                     <div className="pt-4">
                       <p className="text-sm text-slate-600">
-                        Questions? Contact Patrick Schulte directly at{" "}
-                        <a href="mailto:Patrick@pioneerminers.com" className="text-orange-600 hover:underline">
-                          Patrick@pioneerminers.com
+                        Questions? Contact our investor relations team at{" "}
+                        <a href="mailto:Investors@pioneerminers.com" className="text-orange-600 hover:underline">
+                          Investors@pioneerminers.com
                         </a>
                       </p>
                     </div>
