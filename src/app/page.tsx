@@ -24,10 +24,7 @@ export default function Home() {
               <a href="#facility" className="text-slate-600 hover:text-orange-500 transition-colors">Facility</a>
               <a href="#contact" className="text-slate-600 hover:text-orange-500 transition-colors">Contact</a>
             </div>
-            <div className="flex items-center space-x-4">
-              <InvestorModal />
-              <AccreditedInvestorModal />
-            </div>
+            <InvestorModal />
           </div>
         </div>
       </nav>
@@ -71,10 +68,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg">
-              Learn More About Our Operations
-            </Button>
+          <div className="flex justify-center">
             <AccreditedInvestorModal />
           </div>
         </div>
@@ -326,7 +320,11 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Connect</h4>
               <ul className="space-y-2 text-slate-400">
-                <li>LinkedIn</li>
+                <li>
+                  <a href="https://www.linkedin.com/company/pioneer-miners/" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition-colors">
+                    LinkedIn
+                  </a>
+                </li>
                 <li>Twitter</li>
                 <li>Newsletter</li>
                 <li>Blog</li>

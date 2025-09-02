@@ -45,8 +45,8 @@ export default function AccreditedInvestorModal() {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-          Get Started
+        <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-lg">
+          Learn More About Our Operations
         </Button>
       </DialogTrigger>
       <DialogContent className="max-w-2xl">
